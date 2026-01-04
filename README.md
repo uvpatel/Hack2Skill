@@ -1,40 +1,120 @@
 <div align="center">
   <br />
     <a href="https://www.youtube.com/watch?v=XUkNR-JfHwo" target="_blank">
-      <img src="public/readme/hero.png" alt="Project Banner">
+      <img src="lms/public/readme/hero.png" alt="Project Banner">
     </a>
   <br />
 
   <div>
     <img src="https://img.shields.io/badge/-Next.JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=black" alt="next.js" />
-    <img src="https://img.shields.io/badge/-Vapi-black?style=for-the-badge&logoColor=white&logo=vapi.com&color=green" alt="next.js" />
+    <img src="https://img.shields.io/badge/-Vapi-black?style=for-the-badge&logoColor=white&logo=vapi.com&color=green" alt="vapi" />
     <img src="https://img.shields.io/badge/-Tailwind-00BCFF?style=for-the-badge&logo=tailwind-css&logoColor=white" />
   </div>
 
-  <h3 align="center">SaaS App - LMS with Next.js, Supabase & Payments</h3>
+  <h3 align="center">
+    AI-Powered LMS SaaS Platform – Team Customized Edition
+  </h3>
 
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/watch?v=XUkNR-JfHwo" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
+  <div align="center">
+    A production-ready Learning Management System with AI voice tutors,
+    subscriptions, and real-time sessions — customized and extended by our team.
+  </div>
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
+---
+
+## 📋 Table of Contents
 
 1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🔗 [Assets](#links)
-6. 🚀 [More](#more)
+2. 🛠️ [Project Attribution & Customization](#project-attribution--customization)
+3. ⚙️ [Tech Stack](#tech-stack)
+4. 🔋 [Features](#features)
+5. 🤸 [Quick Start](#quick-start)
+6. 🔗 [Assets](#assets)
+7. 👥 [Team Credits](#team-credits)
+8. 🚀 [More](#more)
 
-## 🚨 Tutorial
+---
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
+## 🤖 Introduction
 
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
+This project is an **AI-powered LMS SaaS platform** built using **Next.js, Supabase, Clerk, Stripe, and Vapi**.  
+It enables users to learn through **interactive AI voice tutors**, manage subscriptions, track session history, and access a modern learning experience across devices.
 
-<a href="https://www.youtube.com/watch?v=XUkNR-JfHwo" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
+The application is designed with **real-world scalability**, clean architecture, and a polished UI suitable for **production deployment, hackathons, and portfolio showcase**.
 
+---
+
+## 🛠️ Project Attribution & Customization
+
+This project was **originally inspired by a JavaScript Mastery LMS SaaS tutorial**.
+
+👉 **Important:**  
+This repository is **not a direct copy** of the tutorial.  
+Our team has **significantly modified, refactored, and extended** the codebase.
+
+### 🔄 Changes Made by Our Team
+
+- Refactored project architecture for scalability and maintainability
+- Improved UI/UX with better layouts, animations, and responsiveness
+- Customized AI tutor creation and session workflows
+- Enhanced authentication and user access logic
+- Optimized Supabase database schema and queries
+- Added stronger form validation using Zod
+- Improved error handling and monitoring with Sentry
+- Modified subscription and billing flows
+- Fixed bugs and performance bottlenecks
+- Prepared the app for production and hackathon evaluation
+
+This project represents a **team-driven, real-world SaaS implementation** built on top of an educational reference.
+
+---
+
+## ⚙️ Tech Stack
+
+- **Next.js** – Full-stack React framework for scalable applications  
+- **TypeScript** – Type safety and better developer experience  
+- **Tailwind CSS** – Utility-first styling  
+- **shadcn/ui** – Modern UI components  
+- **Clerk** – Authentication & user management  
+- **Supabase** – Database, storage, and real-time APIs  
+- **Stripe** – Payments & subscriptions  
+- **Vapi** – Voice AI platform for real-time tutors  
+- **Sentry** – Error tracking & performance monitoring  
+- **Zod** – Schema validation  
+
+---
+
+## 🔋 Features
+
+👉 **AI Voice Tutors** – Learn through real-time voiced AI agents  
+👉 **Authentication** – Secure login with Clerk (Google & more)  
+👉 **Billing & Subscriptions** – Manage plans and upgrades  
+👉 **Session History** – Track and revisit past learning sessions  
+👉 **Bookmarks** – Save favorite tutors  
+👉 **Create Custom Tutors** – Choose subject, topic, and style  
+👉 **Search & Filters** – Quickly find tutors  
+👉 **Responsive Design** – Works across all devices  
+👉 **Reusable Components** – Clean and modular codebase  
+👉 **Production-Ready Architecture**
+
+…and more.
+
+---
+
+## 🤸 Quick Start
+
+### Prerequisites
+
+- Git  
+- Node.js  
+- npm  
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
 ## <a name="introduction">🤖 Introduction</a>
 
 Create an LMS SaaS app from scratch featuring user authentication, subscriptions, and payments using Next.js, Supabase, and Stripe! You'll build and deploy a real-time teaching platform with Vapi, integrate an AI vocal agent, and deliver seamless, interactive learning sessions.
@@ -150,23 +230,4 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 
 ## <a name="links">🔗 Assets</a>
 
-Assets and snippets used in the project can be found in the **[video kit](https://jsm.dev/converso-kit)**.
 
-<a href="https://jsm.dev/converso-kit" target="_blank">
-  <img src="public/readme/videokit.jpg" alt="Video Kit Banner">
-</a>
-
-## <a name="more">🚀 More</a>
-
-**Advance your skills with Next.js Pro Course**
-
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with
-detailed explanations, cool features, and exercises to boost your skills. Give it a go!
-
-<a href="https://jsm.dev/converso-nextjs" target="_blank">
-  <img src="public/readme/jsmpro.jpg" alt="Project Banner">
-</a>
-
-
-
-j
