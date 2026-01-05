@@ -1,6 +1,7 @@
+import type { NextConfig } from "next";
 import { withSentryConfig } from "@sentry/nextjs";
 
-const nextConfig = {
+const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -9,16 +10,25 @@ const nextConfig = {
   },
   images: {
     remotePatterns: [
-      { hostname: "img.clerk.com" },
+      {
+        protocol: "https",
+        hostname: "img.clerk.com",
+      },
     ],
   },
 };
 
-export default withSentryConfig(nextConfig, {
-  org: "jsmpro",
-  project: "jsm_converso",
-  silent: !process.env.CI,
-  widenClientFileUpload: true,
-  disableLogger: true,
-  automaticVercelMonitors: true,
-});
+export default withSentryConfig(
+  nextConfig,
+  {
+    org: "jsmpro",
+    project: "jsm_converso",
+    silent: !process.env.CI,
+    disableLogger: true,
+  },
+  {
+    // 👇 Required for Next 15+
+    widenClientFileUpload: true,
+    automaticVercelMonitors: true,
+  }
+);
